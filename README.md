@@ -40,3 +40,7 @@ A chrome extension to bring all your social media handles under one hood. Just s
 
  * Browser (Google Chrome preffered)
  * Text Editor (VS Code required). Install 'Live SASS complier' extension to work with SCSS.
+
+### Contributing
+
+ Please refer to [contributing.md](CONTRIBUTING.md).  
