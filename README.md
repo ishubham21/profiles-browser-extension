@@ -2,6 +2,16 @@
 
 A chrome extension to bring all your social media handles under one hood. Just save your profiles once and access them whenever needed.
 
+This is a browser extension which uses browser's local storage to store all the links to your social profiles in the form of a JavaScript object. 
+
+User can click on any icon to copy the link to the respective profile to thier clipboard making it feasible for them to fill forms whithout having to search for each link separately.
+
+## User Interface
+
+This is the thought User Interface. 
+
+<p align="center"><img src="https://github.com/ishubham21/profiles-browser-extension/imgs/UI.png"></p>
+
 ## 🤷 Project Structure
     .
     ├── ...
