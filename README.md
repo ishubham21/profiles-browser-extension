@@ -4,7 +4,7 @@ A chrome extension to bring all your social media handles under one hood. Just s
 
 This is a browser extension which uses browser's local storage to store all the links to your social profiles in the form of a JavaScript object. 
 
-User can click on any icon to copy the link to the respective profile to thier clipboard making it feasible for them to fill forms whithout having to search for each link separately.
+User can click on any icon to copy the link to the respective profile to their clipboard making it feasible for them to fill forms without having to search for each link separately.
 
 ## User Interface
 
@@ -36,20 +36,20 @@ This is the thought User Interface.
 
  * Open chrome
 
- * In the address bar, type 'chrome://extensions'
+ * In the address bar, type 'chrome://extensions'.
 
- * Enable 'Developer Mode' from topmost-left corner (if not already provided)
+ * Enable 'Developer Mode' from the topmost-left corner (if not already provided).
 
- * Select 'Load Unpacked' option from top
+ * Select 'Load Unpacked' option from the top.
 
  * Browse the location of the saved project and double-click the folder containing all the files.
 
- * You're good to go now. You'll be able to locate the extension in the extensions' section
+ * You're good to go now. You'll be able to locate the extension in the extensions' section.
 
-### System requirements
+### Requirements
 
- * Browser (Google Chrome preffered)
- * Text Editor (VS Code required). Install 'Live SASS complier' extension to work with SCSS.
+ * Browser (Google Chrome prefered)
+ * Text Editor (VS Code required). Install 'Live SASS compiler' extension to work with SCSS.
 
 ### Contributing
 
