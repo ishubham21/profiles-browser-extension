@@ -32,7 +32,7 @@ A chrome extension to bring all your social media handles under one hood. Just s
 
  * Select 'Load Unpacked' option from top
 
- * Browse the location of the saved project
+ * Browse the location of the saved project and double-click the folder containing all the files.
 
  * You're good to go now. You'll be able to locate the extension in the extensions' section
 
@@ -43,4 +43,6 @@ A chrome extension to bring all your social media handles under one hood. Just s
 
 ### Contributing
 
- Please refer to [contributing.md](CONTRIBUTING.md).  
+ Please refer to [contributing.md](CONTRIBUTING.md). 
+
+ In case of any help, please free to contact me via mail @ sg2199203@gmail.com 
