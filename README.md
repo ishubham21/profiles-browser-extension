@@ -10,7 +10,7 @@ User can click on any icon to copy the link to the respective profile to their c
 
 This is the thought User Interface. 
 
-<p align="center"><img src="https://github.com/ishubham21/profiles-browser-extension/imgs/UI.png"></p>
+<p align="center"><img src="https://github.com/ishubham21/profiles-browser-extension/blob/master/imgs/UI.png"></p>
 
 ## 🤷 Project Structure
     .
@@ -30,7 +30,7 @@ This is the thought User Interface.
 
 ## How to get the code running
 
-### To visualise the browser extension, follow the following steps - 
+### To visualise the browser extension, follow the following steps (Please note - since there isn't any code in manifest file, this wouldn't work as of now, you can use normal chrome to visualise the design changes) - 
 
  * Clone/Download this repository or fork it, as applies
 
