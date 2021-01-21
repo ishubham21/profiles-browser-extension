@@ -1,4 +1,4 @@
-Are we missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and make it better. You may also raise an issue.
+Are we missing any of your favorite features, which you think you can add to it? We invite you to contribute to this project and make it better. You may also raise an issue.
 To start contributing, follow the below guidelines: 
 
 **1.**  Fork [this](https://github.com/ishubham21/profiles-browser-extension.git) repository.
@@ -68,4 +68,4 @@ git push -u origin <your_branch_name>
 **14.** Click on `Create Pull Request`.
 
 
-**15** Voila :exclamation: You have made a PR to the awesome-developer-portfolio project :boom: . Sit back patiently and relax while the project maintainers review your PR. Please understand at times the time can vary from a few hours to a few days.
+**15** Voila! You have made a PR to the awesome-developer-portfolio project. Sit back patiently and relax while the your PR is reviewed.
