@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Profiles Extension",
+    "description": "",
+    "version": "1",
+    "author": "Shubham Gautam",
+    "permissions": [
+        "activeTab",
+        "http://*.google.com/"
+    ],
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_title": "Profiles Extension"
+    },
+    // "icons": {
+    //     "16": "imgs/logo.png",
+    //     "48": "imgs/logo.png",
+    //     "128": "imgs/logo.png"
+    // }
+}
