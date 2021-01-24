@@ -1,3 +1,7 @@
+.main-container {
+  background-color: #fff7f3;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -12,5 +16,16 @@ body {
   height: 300px;
   min-width: 630px;
   width: 630px;
+  border: 1px solid #000;
+  background-color: #fff3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */

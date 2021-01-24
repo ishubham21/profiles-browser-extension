@@ -1,3 +1,5 @@
+@import './main-container';
+
 *{
     padding: 0;
     margin: 0;
@@ -7,9 +9,20 @@ html, body{
     overflow: hidden;
 }
 
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body{
     max-height: 300px;
     height: 300px;
     min-width: 630px;
     width: 630px;
+    border: 1px solid #000;
+    background-color: #fff3f3;
+
+    @include center();
 }
+
