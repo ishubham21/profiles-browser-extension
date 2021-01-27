@@ -14,6 +14,14 @@ This is the thought User Interface.
 
 <p align="center"><img src="https://github.com/ishubham21/profiles-browser-extension/blob/master/imgs/UI.png"></p>
 
+### Color Palette
+
+* #fbf3f3
+* #9ccec7
+* #353b3b
+* #ebc5d2
+* #d8a3b2
+
 ## 🤷 Project Structure
     .
     ├── ...
