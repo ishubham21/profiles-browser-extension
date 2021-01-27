@@ -13,8 +13,8 @@
         "default_title": "Profiles Extension"
     },
     "icons": {
-        "16": "imgs/logo.png",
-        "48": "imgs/logo.png",
-        "128": "imgs/logo.png"
+        "16": "imgs/icon.png",
+        "48": "imgs/icon.png",
+        "128": "imgs/icon.png"
     }
 }
