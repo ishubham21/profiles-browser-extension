@@ -1,14 +1,12 @@
 ## About the project 
 
+<p align="center"><img src="https://github.com/ishubham21/profiles-browser-extension/blob/master/imgs/icon.png"></p>
+
 A chrome extension to bring all your social media handles under one hood. Just save your profiles once and access them whenever needed.
 
 This is a browser extension which uses browser's local storage to store all the links to your social profiles in the form of a JavaScript object. 
 
 User can click on any icon to copy the link to the respective profile to their clipboard making it feasible for them to fill forms without having to search for each link separately.
-
-## Logo
-
-<p align="center"><img src="https://github.com/ishubham21/profiles-browser-extension/blob/master/imgs/icon.png"></p>
 
 ## User Interface
 
