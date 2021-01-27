@@ -1,0 +1,16 @@
+label {
+  font-size: 17px;
+  font-weight: 600;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}
+.button {
+  position: absolute;
+  margin-left: 85px;
+  margin-top: 15px;
+}
