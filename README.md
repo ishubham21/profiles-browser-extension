@@ -6,6 +6,10 @@ This is a browser extension which uses browser's local storage to store all the 
 
 User can click on any icon to copy the link to the respective profile to their clipboard making it feasible for them to fill forms without having to search for each link separately.
 
+## Logo
+
+<p align="center"><img src="https://github.com/ishubham21/profiles-browser-extension/blob/master/imgs/icon.png"></p>
+
 ## User Interface
 
 This is the thought User Interface. 
