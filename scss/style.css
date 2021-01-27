@@ -1,8 +1,12 @@
 .main-container {
-  background-color: #fff3;
+  background-color: #fff7f3;
   border: 2px solid #000;
   padding: 30px;
-  font-size: 20px;
+}
+
+label {
+  font-size: 17px;
+  font-weight: 600;
 }
 
 * {
