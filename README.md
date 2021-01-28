@@ -136,3 +136,35 @@ git push -u origin <your_branch_name>
 **15** Voila! You have made a PR to the awesome-developer-portfolio project. Sit back patiently and relax while the your PR is reviewed. 
 
  In case of any help, please free to contact me via mail @ sg2199203@gmail.com 
+ 
+ ## Contributors 
+
+<h2 align=center> ✨ Contributors </h2>
+
+Thanks goes to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributions** of any kind is welcome! 
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+ <tr>
+<td align="center"><a href="https://github.com/ishubham21"><img src="https://avatars.githubusercontent.com/u/34435822?s=400&u=3d0a9718c74cf7c099a933e8b00be1284158e975&v=4" width="100px;" alt=""/><br /><sub><b>ishubham21</b></sub></a><br /><a href="https://github.com/ishubham21/profiles-browser-extension/commits?author=ishubham21" title="Code">💻</a></td>
+<td align="center"><a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width="100px;" alt=""/><br /><sub><b>Ayush7614</b></sub></a><br /><a href="https://github.com/Ayush7614/profiles-browser-extension/commits?author=" title="Code">💻
+ </a></td>
+<td align="center"><a href="https://github.com/khusboobothra"><img src="https://avatars.githubusercontent.com/u/59091399?s=400&u=af802212e6f0fe561c60ddc90c834c36b46365c5&v=4" width="100px;" alt=""/><br /><sub><b>khusboobothra</b></sub></a><br /><a href="https://github.com/khusboobothra/profiles-browser-extension/commits?author=" title="Code">💻</a></td>
+  </tr>
+</table>
+
+## ❤️ Project Admin
+
+|                                     <a href="https://github.com/ishubham21"><img src="https://avatars.githubusercontent.com/u/34435822?s=400&u=3d0a9718c74cf7c099a933e8b00be1284158e975&v=4" width=150px height=150px /></a>                                      |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                      **[Shubham Gautam](https://www.linkedin.com/in/shubham-gautam-433019191/)**                                                                                    |
+
+
+## Stargazers Over Time
+
+[![Stargazers over time](https://starchart.cc/ishubham21/profiles-browser-extension.svg)](https://starchart.cc/ishubham21/profiles-browser-extension)
+
+
+
