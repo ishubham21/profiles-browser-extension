@@ -7,7 +7,7 @@
 }
 
 html, body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 @mixin center {
@@ -23,6 +23,7 @@ body{
     width: 630px;
     border: 1px solid #000;
     background-color: #fff3f3;
+    
 
     @include center();
 }
