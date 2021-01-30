@@ -1,96 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="title" content="Profiles Extension">
-    <meta name="description" content="">
-    <meta name="keywords" content="Instagram, Web, LinkedIn, Profiles, Browser, Extension, Chrome">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
-    <meta name="revisit-after" content="1 days">
-    <meta name="author" content="">
+    <meta name="title" content="Profiles Extension" />
+    <meta name="description" content="" />
+    <meta
+      name="keywords"
+      content="Instagram, Web, LinkedIn, Profiles, Browser, Extension, Chrome"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="author" content="" />
 
     <!--Font Awesome-->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.0/css/all.css"
-        integrity="sha384-yXyaKVWGB2SyDoYATyErcgoNH1iAnnf8fCXejZM4NYUbhWiGkZoMwh6IoJ4v5ogi" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.3.0/css/all.css"
+      integrity="sha384-yXyaKVWGB2SyDoYATyErcgoNH1iAnnf8fCXejZM4NYUbhWiGkZoMwh6IoJ4v5ogi"
+      crossorigin="anonymous"
+    />
 
     <!--Local CSS-->
-    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="scss/style.css" />
+    <link rel="stylesheet" href="scss/form.css" />
 
+    <!--Script-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="form.js"></script>
 
     <title>profiles-browser-extension</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <div id="container">
+      <span class="input">
+        <input type="text" class="input__field" id="input-1" />
+        <label for="input-1" class="input__label">
+          <span class="input__label-content">
+            <i class="fab fa-github" style="color: grey"></i> Your Github
+            Handle</span
+          >
+        </label>
+      </span>
 
-   <div class="form">
-      <form>
-        <i class="fas fa-address-card"></i>
-        <label>Portfolio:</label><br />
-        <input
-          type="text"
-          id="portfolio"
-          placeholder="Your Portfolio Handle"
-          size="30"
-        /><br />
-        <i class="fab fa-github"> </i>
-        <label>Github:</label><br />
-        <input
-          type="text"
-          id="github"
-          placeholder="Your Github Handle"
-          size="30"
-        /><br />
-        <i class="fab fa-linkedin"></i>
-        <label>LinkedIN:</label><br />
-        <input
-          type="text"
-          id="linkedIn"
-          placeholder="Your LinkedIn Handle"
-          size="30"
-        /><br />
-        <i class="fas fa-envelope"></i>
-        <label>Gmail:</label><br />
-        <input
-          type="text"
-          id="gmail"
-          placeholder="Your Gmail Handle"
-          size="30"
-        /><br />
-        <i class="fab fa-twitter-square"></i>
-        <label>Twitter:</label><br />
-        <input
-          type="text"
-          id="twitter"
-          placeholder="Your Twitter Handle"
-          size="30"
-        /><br />
-        <i class="fab fa-instagram-square"></i>
-        <label>Instagram:</label><br />
-        <input
-          type="text"
-          id="instagram"
-          placeholder="Your Instagram Handle"
-          size="30"
-        /><br />
-        <i class="fab fa-stack-overflow"></i>
-        <label>StackOverflow:</label><br />
-        <input
-          type="text"
-          id="stackoverflow"
-          placeholder="Your StackOverflow Handle"
-          size="30"
-        />
-        <br />
-        <button type="submit" class="button">Submit</button>
-      </form>
+      <span class="input">
+        <input type="text" class="input__field" id="input-2" />
+        <label for="input-2" class="input__label">
+          <span class="input__label-content"
+            ><i class="fas fa-address-card" style="color: grey"></i> Your
+            Portfolio Handle
+          </span>
+        </label>
+      </span>
+
+      <span class="input">
+        <input type="text" class="input__field" id="input-3" />
+        <label for="input-3" class="input__label">
+          <span class="input__label-content">
+            <i class="fab fa-linkedin" style="color: grey"></i> Your LinkedIN
+            Handle</span
+          >
+        </label>
+      </span>
+
+      <span class="input">
+        <input type="text" class="input__field" id="input-4" />
+        <label for="input-4" class="input__label">
+          <span class="input__label-content"
+            ><i class="fas fa-envelope" style="color: grey"></i> Your Mail
+            Handle</span
+          >
+        </label>
+      </span>
+
+      <span class="input">
+        <input type="text" class="input__field" id="input-5" />
+        <label for="input-5" class="input__label">
+          <span class="input__label-content">
+            <i class="fab fa-twitter-square" style="color: grey"></i> Your
+            Twitter Handle</span
+          >
+        </label>
+      </span>
+      <span class="input">
+        <input type="text" class="input__field" id="input-6" />
+        <label for="input-6" class="input__label">
+          <span class="input__label-content"
+            ><i class="fab fa-instagram-square" style="color: grey"></i> Your
+            Instagram Handle</span
+          >
+        </label>
+      </span>
+      <span class="input">
+        <input type="text" class="input__field" id="input-7" />
+        <label for="input-7" class="input__label">
+          <span class="input__label-content"
+            ><i class="fab fa-stack-overflow" style="color: grey"></i> Your
+            StackOverflow Handle</span
+          >
+        </label>
+      </span>
+
+      <button id="send-button" type="button">Send</button>
     </div>
-
-    <script src="./js/form.js"></script>
-    <script src="js/app.js"></script>
-</body>
-
+  </body>
 </html>
