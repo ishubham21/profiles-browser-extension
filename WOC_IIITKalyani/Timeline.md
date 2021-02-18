@@ -12,7 +12,7 @@
 
 * Creating the logic in Javascript and binding all the files.
 
-## Feb 15, 2021
+## Feb 25, 2021
 
 * Final review and handing over the project
 
