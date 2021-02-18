@@ -4,6 +4,23 @@
   background-color: #fff7f3;
   border: 2px solid #000;
   padding: 30px;
+  position: relative;
+}
+
+.main-container i {
+  margin: 10px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.main-container::after {
+  z-index: -20;
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  padding: 60px 245px;
+  background-color: #9ed0c9;
 }
 
 *,
@@ -149,7 +166,7 @@ body {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 2px;
 }
 
 /* Track */

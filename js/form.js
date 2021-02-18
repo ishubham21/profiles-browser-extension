@@ -1,31 +1,39 @@
-var $input;
+var profiles = {}
 
-function onInputFocus(event) {
-    var $target = $(event.target);
-    var $parent = $target.parent();
-    $parent.addClass('input--filled');
-};
+function returnElems(identifier) {
+    return document.querySelector(identifier)
+}
 
-function onInputBlur(event) {
-    var $target = $(event.target);
-    var $parent = $target.parent();
+//defining variables
+var git = returnElems('#github')
+var web = returnElems('#website')
+var linkedin = returnElems('#linkedin')
+var email = returnElems('#mail')
+var twitter = returnElems('#twitter')
+var insta = returnElems('#instagram')
+var stacko = returnElems('#stackoverflow')
 
-    if (event.target.value.trim() === '') {
-        $parent.removeClass('input--filled');
-    }
-};
+//setting localStorage for saving the details
+function setLocalStorage(){
+    window.localStorage.setItem('profiles', JSON.stringify(profiles))
+}
 
-$(document).ready(function () {
-    $input = $('.input__field');
+//function to get and set values
+function getValues(){
+    profiles.github = git.value
+    profiles.website = web.value
+    profiles.linkedin = linkedin.value
+    profiles.email = email.value
+    profiles.twitter = twitter.value
+    profiles.insta = insta.value
+    profiles.stacko = stacko.value
 
-    // in case there is any value already
-    $input.each(function () {
-        if ($input.val().trim() !== '') {
-            var $parent = $input.parent();
-            $parent.addClass('input--filled');
-        }
-    });
+    //calling this function to set localStorage
+    setLocalStorage()
+}
 
-    $input.on('focus', onInputFocus);
-    $input.on('blur', onInputBlur);
-});
+var submit = returnElems('#send-button')
+
+submit.addEventListener('click', getValues)
+
+

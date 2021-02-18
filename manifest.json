@@ -6,6 +6,7 @@
     "author": "Shubham Gautam",
     "permissions": [
         "activeTab",
+        "unlimitedStorage",
         "http://*.google.com/"
     ],
     "browser_action": {
