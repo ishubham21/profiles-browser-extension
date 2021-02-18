@@ -20,3 +20,34 @@
         background-color: #9ed0c9;
     }
 }
+
+@mixin button-ui {
+  width: 200px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 70.25%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  outline: 0;
+  background-color: #fff3f3;
+  border: 1px solid #000;
+  color: #000;
+    
+  &:hover, &:focus{
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+      background-color: #232323;
+      color: #fff3f3;
+      border: 0;
+  }
+}
+
+#reset{
+    @include button-ui();
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+}

@@ -107,29 +107,7 @@ body{
 }
 
 #send-button {
-  width: 200px;
-  height: 60px;
-  font-weight: bold;
-  font-size: 70.25%;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  cursor: pointer;
-  outline: 0;
-  background-color: #fff3f3;
-  border: 1px solid #000;
-  color: #000;
-}
-
-#send-button:hover,
-#send-button:focus {
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-   background-color: #232323;
-  color: #fff3f3;
-  border: 0;
-  
+  @include button-ui();
 }
 
 /* width */

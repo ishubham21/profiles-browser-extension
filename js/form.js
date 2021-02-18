@@ -30,10 +30,13 @@ function getValues(){
 
     //calling this function to set localStorage
     setLocalStorage()
+
+    window.location = 'index.html'
 }
 
+//submit button
 var submit = returnElems('#send-button')
-
+//click event listener
 submit.addEventListener('click', getValues)
 
 
