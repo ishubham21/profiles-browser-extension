@@ -10,7 +10,7 @@ User can click on any icon to copy the link to the respective profile to their c
 
 ## User Interface
 
-This is the thought User Interface. 
+This is the User Interface of the extension. 
 
 <p align="center"><img src="https://github.com/ishubham21/profiles-browser-extension/blob/master/imgs/UI.png"></p>
 
